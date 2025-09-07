@@ -1,3 +1,5 @@
+// !!! 2_1 - введение в с++, основной синтаксис
+
 #include <iostream>
 #include <string>
 
