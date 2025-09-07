@@ -219,35 +219,45 @@
 // }
 
 // Задача 2
+// int main() {
+//     int a, b, c;
+//     std::cin >> a >> b >> c;
+
+//     int sum = a + b + c;
+//     int mx, mn, sr;
+
+//     if (a > b && a > c) {
+//         mx = a;
+//     } else if (b > a && b > c) {
+//         mx = b;
+//     } else {
+//         mx = c;
+//     }
+
+//     if (a < b && a < c) {
+//         mn = a;
+//     } else if (b < a && b < c) {
+//         mn = b;
+//     } else {
+//         mn = c;
+//     }
+//     sr = sum - mx - mn;
+
+//     if (mx * mx == mn * mn + sr * sr) {
+//         std::cout << "YES";
+//     } else if (mn + sr > mx ) {
+//         std::cout << "NO";
+//     } else {
+//         std::cout << "UNDEFINED";
+//     }
+// }
+
+// Задача 3
 int main() {
-    int a, b, c;
-    std::cin >> a >> b >> c;
+    int n, k;
+    std::cin >> n >> k;
 
-    int sum = a + b + c;
-    int mx, mn, sr;
-
-    if (a > b && a > c) {
-        mx = a;
-    } else if (b > a && b > c) {
-        mx = b;
-    } else {
-        mx = c;
-    }
-
-    if (a < b && a < c) {
-        mn = a;
-    } else if (b < a && b < c) {
-        mn = b;
-    } else {
-        mn = c;
-    }
-    sr = sum - mx - mn;
-
-    if (mx * mx == mn * mn + sr * sr) {
-        std::cout << "YES";
-    } else if (mn + sr > mx ) {
-        std::cout << "NO";
-    } else {
-        std::cout << "UNDEFINED";
+    for (int i = 1; i <= k; ++i) {
+        
     }
 }
