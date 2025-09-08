@@ -253,11 +253,77 @@
 // }
 
 // Задача 3
-int main() {
-    int n, k;
-    std::cin >> n >> k;
+// int main() {
+//     int year;
+//     std::cin >> year;
 
-    for (int i = 1; i <= k; ++i) {
-        
-    }
-}
+//     if ((year % 100 != 0 && year % 4 == 0) || year % 400 == 0) {
+//         std::cout << "YES";
+//     } else { 
+//         std::cout << "NO";
+//     }
+// }
+
+// Задача 4
+// int main() {
+//     int mounth, year;
+//     std::cin >> mounth >> year;
+
+//     if (mounth == 1 || mounth == 3 || mounth == 5 || mounth == 7 || mounth == 8 || mounth == 10 || mounth == 12) {
+//         std::cout << 31;
+//     } else if (mounth == 4 || mounth == 6 || mounth == 9 || mounth == 11) {
+//         std::cout << 30;
+//     } else if (((year % 100 != 0 && year % 4 == 0) || year % 400 == 0) && mounth == 2) {
+//         std::cout << 29;
+//     } else { 
+//         std::cout << 28;
+//     }
+// }
+
+// Задача 5
+// int main() {
+//     int n, k;
+//     std::cin >> n >> k;
+
+//     for (int j = 1; j < n; ++j) {
+//         std::cout << "   ";
+//     }
+
+//     for (int i = 1; i <= k; ++i) {
+//         if (i < 10) {
+//             std::cout << " " << i << " ";
+//         } else {
+//             std::cout << i << " ";
+//         }
+  
+//         if (i % 7 == (8 - n) % 7) {
+//             std::cout << "\n";
+//         } 
+//     }
+// }
+
+// Задача 6
+// int main() {
+//     int x ;
+//     std::cin >> x;
+//     int sum = 0;
+    
+//     while (x > 0) {
+//         sum += x % 10;
+//         x /= 10;
+//     }
+
+//     std::cout << sum;
+// }
+
+// Задача 7
+// #include <cmath>
+// int main() {
+//     int n = 0;
+//     std::cin >> n;
+//     double ans = 0;
+//     for (int i = 2; i <= n; i += 1) {
+//         ans = ans - (pow((-1), i+1) / i);
+//     }
+//     std::cout << 1 - ans << "\n";
+// }
