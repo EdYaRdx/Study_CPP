@@ -51,6 +51,7 @@
 //               << "maximum value: " << std::numeric_limits<int>::max() << "\n";
 // }
 
+// Приставка unsigned перед типом делает его беззнаковым
 // int main() {
 //     unsigned int a = 123456;
 //     std::cout << a * a << "\n";
@@ -61,7 +62,8 @@
 //     int a = 7, b = 3;
 //     int q = a / b; // 2
 //     int r = a % b; // 1
-//     double e = static_cast<double>(a) / b; // 2.(3) || double q = a * 1.0 / b;
+//     // Если при делении нужно получить обычное частное, то один из аргументов нужно привести к вещественному типу (например, double) с помощью оператора static_cast:
+//     double e = static_cast<double>(a) / b; // 2.(3) || double q = a * 1.0 / b; 
 //     std::cout << e;
 // }
 
